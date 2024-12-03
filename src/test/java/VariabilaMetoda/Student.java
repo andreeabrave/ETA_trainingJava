@@ -1,6 +1,9 @@
 package VariabilaMetoda;
 
+import com.google.errorprone.annotations.Var;
 import org.testng.annotations.Test;
+
+import java.sql.SQLOutput;
 
 public class Student {
 
@@ -32,6 +35,14 @@ public class Student {
         Sex='F';
         AreDiploma=true;
 
-        System.out.print(Nume);
+        System.out.println("Nume student: " + Nume);
+        System.out.println("Prenume student: " + Prenume);
+        System.out.println("Varsta student: " + Varsta);
+        System.out.println("Adresa student: " + Adresa);
+        System.out.println("Inaltime student: " + Inaltime);
+        System.out.println("Greutate student: " + Greutate);
+        System.out.println("Sex student: " + Sex);
+        System.out.println("Diploma student: " + AreDiploma);
+
     }
 }
