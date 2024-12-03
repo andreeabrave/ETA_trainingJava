@@ -1,4 +1,8 @@
-public class Students {
+package VariabilaMetoda;
+
+import org.testng.annotations.Test;
+
+public class Student {
 
     public String Nume;
 
@@ -30,7 +34,4 @@ public class Students {
 
         System.out.print(Nume);
     }
-
-
-
 }
