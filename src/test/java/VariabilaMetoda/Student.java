@@ -25,15 +25,15 @@ public class Student {
 
 
     @Test
-    public void prezentareStudent(){
-        Nume="Muresan";
-        Prenume="Andreea";
-        Varsta=32;
-        Adresa="Sobarilor 38A";
-        Inaltime=1.76;
-        Greutate=80.1f;
-        Sex='F';
-        AreDiploma=true;
+    public void prezentareStudent() {
+        Nume = "Muresan";
+        Prenume = "Andreea";
+        Varsta = 32;
+        Adresa = "Sobarilor 38A";
+        Inaltime = 1.76;
+        Greutate = 80.1f;
+        Sex = 'F';
+        AreDiploma = true;
 
         System.out.println("Nume student: " + Nume);
         System.out.println("Prenume student: " + Prenume);
@@ -43,6 +43,15 @@ public class Student {
         System.out.println("Greutate student: " + Greutate);
         System.out.println("Sex student: " + Sex);
         System.out.println("Diploma student: " + AreDiploma);
+
+        calculMedie();
+    }
+    public void calculMedie(){
+        Integer nota1=8;
+        Integer nota2=7;
+        Integer nota3=10;
+        Integer medie=(nota1+nota2+nota3)/3;
+        System.out.println("Media studentului este: "+medie);
 
     }
 }
