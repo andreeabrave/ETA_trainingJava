@@ -27,7 +27,7 @@ public class Masina {
         System.out.println("Anul de fabricare al masinii este: "+anFabricare);
     }
 
-    //calculam media la doua numere
+    //CALCULAM MEDIA A DOUA NUMERE
 
     public void calculMedie(Double nota1, Double nota2){
         Double rezultat=(nota1+nota2)/2;

@@ -51,7 +51,10 @@ public class StructuriAlternative {
         else if (Valoare==0) {
             System.out.println("Numarul " + Valoare + " este null");
         }
+
     }
+
+
 }
 
 

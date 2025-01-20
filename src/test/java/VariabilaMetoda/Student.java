@@ -45,6 +45,7 @@ public class Student {
         System.out.println("Diploma student: " + AreDiploma);
 
         calculMedie();
+        System.out.println(getSalariu());
     }
     public void calculMedie(){
         Integer nota1=8;
@@ -53,5 +54,11 @@ public class Student {
         Integer medie=(nota1+nota2+nota3)/3;
         System.out.println("Media studentului este: "+medie);
 
+    }
+
+    //METODA CU RETURN
+    public Integer getSalariu (){
+        Integer salariu=50000;
+        return salariu;
     }
 }
